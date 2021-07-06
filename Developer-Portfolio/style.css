@@ -5,13 +5,23 @@ body{
 .Color{
     color: orange;
 }
-section{
+.felxible_container{
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 .half-Width{
     width: 50%;
     padding-left:5% ;
+}
+.Experience-Item{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+   box-shadow: 10px 10px 40px gray;
+   
+
 }
 .half-Width img{
     width: 70%;
@@ -22,4 +32,17 @@ section{
     color: white;
     font-family: 700;
     padding: 10px 40px;
+}
+#web-Developer-1{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#web-Developer-2{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
