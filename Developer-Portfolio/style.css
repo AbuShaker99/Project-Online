@@ -1,0 +1,28 @@
+body{
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Rubik', sans-serif;;
+}
+.Color{
+    color: orange;
+}
+section{
+    display: flex;
+}
+.half-Width{
+    width: 50%;
+    padding-left:5% ;
+}
+.half-Width img{
+    width: 70%;
+}
+.link_button{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    color: white;
+    font-family: 700;
+    padding: 10px 40px;
+}
+.top-banner{
+    background-image: url(Background.png);
+    background-repeat: no-repeat;
+}
